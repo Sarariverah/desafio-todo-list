@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Todo List</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6b8f0c7049.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div class="container">
+        <h2>Todo List</h2>
+        <p>Nueva tarea</p>
+            <div class="newtask-group">
+                <input type="text" id="input-box" placeholder="Nueva tarea por hacer">
+                <button class="btn" id="btn-add">Agregar</button>
+            </div>
+            <div class="task-details">
+                <p>Total: <span id="total-tasks">0</span></p>
+                <p>Realizadas: <span id="done-tasks">0</span></p>
+            </div>
+                <ul class="tasklist" id="tasks-list">
+                    <li class="task"> 
+                        <p>ID</p>
+                        <p>Tarea</p>
+                        <p>false</p>
+                        <div class="iconos">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <i class="fa-solid fa-trash"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <p>ID</p>
+                        <p>Tarea</p>
+                        <p>false</p>
+                        <div class="iconos">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <i class="fa-solid fa-trash"></i>
+                        </div>
+                    </li>
+                </ul>
+    </div>
+    
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
